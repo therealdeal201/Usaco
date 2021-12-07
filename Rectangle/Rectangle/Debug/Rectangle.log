@@ -1,0 +1,60 @@
+﻿  main.cpp
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(51,8): error C2065: '_Numeric_Point_Type': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(51,2): error C2923: 'Point': '_Numeric_Point_Type' is not a valid template type argument for parameter '_Numeric_Measurement_Type'
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(53,8): error C2065: '_Numeric_Point_Type': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(53,2): error C2923: 'Point': '_Numeric_Point_Type' is not a valid template type argument for parameter '_Numeric_Measurement_Type'
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(55,32): error C3646: 'xDimension': unknown override specifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(55,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(57,32): error C3646: 'yDimension': unknown override specifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(57,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(59,26): error C3646: 'area': unknown override specifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(59,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(61,27): error C3646: 'perim': unknown override specifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(61,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(65,24): error C2065: '_Numeric_Point_Type': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(65,18): error C2923: 'Point': '_Numeric_Point_Type' is not a valid template type argument for parameter '_Numeric_Measurement_Type'
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(65,72): error C2065: '_Numeric_Point_Type': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(65,66): error C2923: 'Point': '_Numeric_Point_Type' is not a valid template type argument for parameter '_Numeric_Measurement_Type'
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(74,67): error C2143: syntax error: missing ')' before '<'
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(74,67): error C2143: syntax error: missing ';' before '<'
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(74,67): error C2059: syntax error: '<'
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(74,91): error C2059: syntax error: ')'
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(74,93): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(79,61): error C2143: syntax error: missing ')' before '<'
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(79,61): error C2143: syntax error: missing ';' before '<'
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(79,61): error C2059: syntax error: '<'
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(79,85): error C2059: syntax error: ')'
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(79,87): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(86,35): error C3646: 'intersectArea': unknown override specifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(86,35): error C2059: syntax error: '('
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(86,77): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(92,29): error C3646: 'getArea': unknown override specifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(92,29): error C2059: syntax error: '('
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(92,32): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(70,8): error C2065: 'xDimension': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(70,20): error C2065: 'yDimension': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(71,14): error C2065: 'xDimension': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(71,33): error C2065: 'yDimension': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(68,3): error C2614: 'Rectangle': illegal member initialization: 'xDimension' is not a base or member
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(69,3): error C2614: 'Rectangle': illegal member initialization: 'yDimension' is not a base or member
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(70,3): error C2614: 'Rectangle': illegal member initialization: 'area' is not a base or member
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(71,3): error C2614: 'Rectangle': illegal member initialization: 'perim' is not a base or member
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(100,11): error C2059: syntax error: '<'
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(102,8): error C2065: 'billboard1': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(102,22): error C2065: 'billboard2': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(102,36): error C2065: 'truck': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(104,22): error C2065: 'billboard1': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(104,45): error C2065: 'billboard2': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(106,8): error C2065: 'billboard1': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(106,22): error C2065: 'billboard2': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(106,36): error C2065: 'truck': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(108,8): error C2065: 'billboard1': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(109,8): error C2065: 'billboard2': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(110,8): error C2065: 'billboard1': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(110,33): error C2065: 'truck': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(111,8): error C2065: 'billboard2': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(111,33): error C2065: 'truck': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(113,24): error C2065: 'billboard1': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(113,49): error C2065: 'truck': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(113,58): error C2065: 'billboard2': undeclared identifier
+C:\Users\leona\Documents\GitHub\Usaco\Rectangle\Rectangle\main.cpp(113,83): error C2065: 'truck': undeclared identifier
