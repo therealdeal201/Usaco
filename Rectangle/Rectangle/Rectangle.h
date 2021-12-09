@@ -4,27 +4,27 @@
 
 #include "Point.h"
 
-template <class _Numeric_Point_Type>
+template <class R>
 
 class Rectangle {
 
 private:
 
-	Point<_Numeric_Point_Type> bottomLeft;
+	Point<R> bottomLeft;
 
-	Point<_Numeric_Point_Type> topRight;
+	Point<R> topRight;
 
-	_Numeric_Point_Type xDimension;
+	R xDimension;
 
-	_Numeric_Point_Type yDimension;
+	R yDimension;
 
-	_Numeric_Point_Type area;
+	R area;
 
-	_Numeric_Point_Type perim;
+	R perim;
 
 public:
 
-	Rectangle(const Point<_Numeric_Point_Type>& bl = { 0,0 }, const Point<_Numeric_Point_Type>& tr = { 0,0 }) :
+	Rectangle(const Point<R>& bl = { 0,0 }, const Point<R>& tr = { 0,0 }) :
 		bottomLeft(bl),
 		topRight(tr),
 		xDimension(tr.x - bl.x),
@@ -34,27 +34,27 @@ public:
 	{	}
 
 
-	template <class _Numeric_Point_Type>
-	friend std::ostream& operator<<(std::ostream& os, const Rectangle<_Numeric_Point_Type>& r) {
+	template <class R>
+	friend std::ostream& operator<<(std::ostream& os, const Rectangle<R>& r) {
 		os << "BL: " << r.bottomLeft << "TR: " << r.topRight;
 		return os;
 	}
 
-	template <class _Numeric_Point_Type>
-	friend std::istream& operator>>(std::istream& is, Rectangle<_Numeric_Point_Type>& r) {
-		Point<_Numeric_Point_Type> bl, tr;
+	template <class R>
+	friend std::istream& operator>>(std::istream& is, Rectangle<R>& r) {
+		Point<R> bl, tr;
 		is >> bl >> tr;
 		r = Rectangle(bl, tr);
 		return is;
 	}
 
-	_Numeric_Point_Type intersectArea(const Rectangle<_Numeric_Point_Type>& r) {
-		_Numeric_Point_Type xOverlap = std::max(0, std::min(topRight.x, r.topRight.x) - std::max( bottomLeft.x, r.bottomLeft.x) );
-		_Numeric_Point_Type yOverlap = std::max(0, std::min(topRight.y, r.topRight.y) - std::max( bottomLeft.y, r.bottomLeft.y) );
+	R intersectArea(const Rectangle<R>& r) {
+		R xOverlap = std::max(0, std::min(topRight.x, r.topRight.x) - std::max( bottomLeft.x, r.bottomLeft.x) );
+		R yOverlap = std::max(0, std::min(topRight.y, r.topRight.y) - std::max( bottomLeft.y, r.bottomLeft.y) );
 		return xOverlap * yOverlap;
 	}
 
-	_Numeric_Point_Type getArea() {
+	R getArea() {
 		return area;
 	}
 
